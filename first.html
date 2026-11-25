@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <title>Document</title>
+   <style>
+    #first{
+      color: black;
+    }
+   </style>
+ </head>
+  <body id = "first">
+   <button onclick = "changeColor('blue')">Blue</button>
+   <button onclick = "changeColor('yellow')">Yellow</button>
+   <button onclick = "changeColor('red')">Red</button>
+   
+   <script>
+    function changeColor(colorValue){
+     const dip = document.getElementById("first");
+     dip.style.backgroundColor = colorValue;
+    }
+   </script>
+ </body>
+</html>
